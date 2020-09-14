@@ -1,0 +1,208 @@
+{
+  "experiences": [
+    {
+      "name": "Projections",
+      "link": "projections",
+      "location": "Vadodara",
+      "weight": 3,
+      "tags": [
+        "college",
+        "events"
+      ],
+      "date": "Feb '13 - Feb '15",
+      "short": "Parul University's annual technical symposium",
+      "photos": [
+        "/static/experiences/projections/a1.jpg",
+        "/static/experiences/projections/a9.jpg",
+        "/static/experiences/projections/a10.jpg",
+        "/static/experiences/projections/a8.jpg",
+        "/static/experiences/projections/a6.jpg",
+        "/static/experiences/projections/a5.jpg",
+        "/static/experiences/projections/a4.jpg",
+        "/static/experiences/projections/a3.jpg",
+        "/static/experiences/projections/a2.jpg"
+      ]
+    },
+    {
+      "name": "Month-long Travel '17",
+      "link": "travel-17",
+      "location": "Darjeeling, Gangtok, Dayara Bugyal, Uttarkashi",
+      "weight": 4,
+      "tags": [
+        "travel",
+        "north"
+      ],
+      "date": "Jan 2017",
+      "short": "A took a month off of work to ski and travel North India and Bhutan.",
+      "photos": [
+        "/static/experiences/darj-gantok/a5.jpg",
+        "/static/experiences/darj-gantok/a4.jpg",
+        "/static/experiences/darj-gantok/a8.jpg",
+        "/static/experiences/darj-gantok/a15.jpg",
+        "/static/experiences/darj-gantok/a12.jpg",
+        "/static/experiences/darj-gantok/a13.jpg",
+        "/static/experiences/dayara/a10.jpg",
+        "/static/experiences/dayara/a9.jpg",
+        "/static/experiences/dayara/a12.jpg",
+        "/static/experiences/dayara/a1.jpg"
+      ]
+    },
+    {
+      "name": "GTU '15",
+      "link": "gtu-15",
+      "location": "Ahmedabad, India",
+      "weight": 2,
+      "tags": [
+        "innovation",
+        "maker-space"
+      ],
+      "date": "May 2015",
+      "short": "Spent some time at the coworking space, Won innovation awards.",
+      "photos": [
+        "/static/experiences/gtu-15/gtu3.jpg",
+        "/static/experiences/gtu-15/gtu.jpg",
+        "/static/experiences/gtu-15/gtu1.jpg",
+        "/static/experiences/gtu-15/gtu2.jpg",
+        "/static/experiences/gtu-15/gtu5.jpg"
+      ]
+    },
+    {
+      "name": "Taj Mahal",
+      "link": "tajmahal",
+      "location": "Taj Mahal, Agra, India",
+      "weight": 8,
+      "tags": [
+        "tajmahal",
+        "7wonders",
+        "india"
+      ],
+      "date": "Aug 2018",
+      "short": "A 10 day trip to Rajasthan and Uttar Pradesh. We  explored Udaipur, Jaipur, Mathura, Vrindavan and Agra ",
+      "photos": [
+        "/static/experiences/tajmahal/a1.jpg",
+        "/static/experiences/tajmahal/a2.jpg",
+        "/static/experiences/tajmahal/a3.jpg",
+        "/static/experiences/tajmahal/a4.jpg"
+      ]
+    },
+    {
+      "name": "Youngsoft",
+      "link": "youngsoft",
+      "location": "Wixom, Michigan",
+      "weight": 7,
+      "tags": [
+        "consultant",
+        "salesforce"
+      ],
+      "date": "Sep 2017",
+      "short": "Signed an year-long Salesforce consultation contract with Youngsoft, an IT service management company based in Wixom, with their subsidiary ABSYZ Software Consulting based in India",
+      "photos": [
+        "/static/experiences/youngsoft/a1.jpg"
+      ]
+    },
+    {
+      "name": "Cypher'17",
+      "link": "cypher",
+      "weight": 3,
+      "location": "Bangalore, India",
+      "date": "Sep 2017",
+      "tags": [
+        "cypher",
+        "summit"
+      ],
+      "short": "Spent 3 days at Cypher'17 analytics India Summit, Bangalore; Connected with the data science community, attended AI workshops and training sessions.",
+      "videos": [
+"<iframe width=\"864\" height=\"486\" src=\"https://www.youtube.com/embed/r02MoRDC8qg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+],
+
+      "photos": [
+        "/static/experiences/cypher/c2.jpg"
+      ]
+    },
+    {
+      "name": "Mohku Solutions LLC",
+      "link": "mohku",
+      "location": "Odenton, MD, USA",
+      "weight": 6,
+      "tags": [
+        "maryland",
+        "startup"
+      ],
+      "date": "May 2015",
+      "short": "Worked at Mohku LLC, a Salesforce startup based in Maryland where I co-developed CRM portals, designed many salesforce lightning apps and coded many Salesforce components",
+
+      "photos": [
+        "/static/experiences/mohku/mohku.jpg"
+      ]
+    },
+    {
+      "name": "Saha Institute of Nuclear Physics",
+      "link": "saha",
+      "location": "Kolkata, West Bengal",
+      "weight": 6,
+      "tags": [
+        "sinp",
+        "research"
+      ],
+      "date": "May 2014-July 2014",
+      "short": "Interned at Saha Institute of Nuclear Physics, Kolkata for my summer research projects",
+
+      "photos": [
+        "/static/experiences/saha/saha.png",
+		"/static/experiences/saha/2.jpg"
+      ]
+    },
+    {
+      "name": "PMS Infotech Pvt. Ltd.",
+      "link": "pms",
+      "weight": 5,
+      "location": "Ahmedabad, India",
+      "tags": [
+        "pms",
+	"apps"
+      ],
+      "date": "Sep 2015 - Nov 2017",
+      "short": "Contract with PMS Infotech, an IT company. My work here it consult aid the PMS team in application development, web development, database management and cyber security. PMS is working on many great projects like My Great Child, and MidnightCake.com.",
+      "photos": [
+        "/static/experiences/pms/a4.jpg",
+        "/static/experiences/pms/a1.png",
+        "/static/experiences/pms/a2.png"
+      ]
+    },
+    {
+      "name": "Predictbay",
+      "link": "predictbay",
+      "weight": 9,
+      "location": "Surat, Gujarat",
+      "tags": [
+        "datascience",
+	"predictbay"
+      ],
+      "date": "Jan 2018 - Present",
+      "short": "Working at my Startup company Predictbay, Exciting times!",
+      "photos": [
+        "/static/experiences/pb.jpg"
+      ]
+    },
+    {
+      "name": "Youtube Fan Fest",
+      "link": "ytff",
+      "weight": 1,
+      "location": "Delhi, Mumbai",
+      "tags": [
+        "ytff",
+  "celebs"
+      ],
+      "date": "Mar 2016",
+      "short": "Youtube sponsored me a flight, stay and, a meet & greet with famous YouTubers",
+      "photos": [
+        "/static/experiences/ytff/a1.jpg",
+        "/static/experiences/ytff/a2.jpg",
+        "/static/experiences/ytff/a3.jpg",
+        "/static/experiences/ytff/a4.jpg",
+        "/static/experiences/ytff/a5.jpg",
+        "/static/experiences/ytff/a6.jpg"  
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper desktop-only">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">oh-my-zsh</span>
+                    </div>
+                    <div class="message">
+                      <span class='prompt'><span class='user'>nex</span><span class="at">@</span>
+                      <span class="path">/home/aman/</span><span class="caret">$</span>
+                    </span>
+                      <span class="typed">
+                      </span>
+                      <form>
+                        <span class="caret"></span>&nbsp;<input type="text" name="response"></input>
+                      </form>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Aman</p>
+            <p class="text-title desktop-view">Batra</p>
+            <p class="text-title mobile-view">Aman Batra</p>
+            <div>
+                <a target="_blank" href="https://github.com/mnbatra">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/iamtechno/">
+                    <img class="title-logo" src="static/images/linkedin-logo.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">I am a digital entrepreneur by profession, and an artist at heart; From developing challenging software for corporates and start-ups to small
+                weekend hacks and tinkering around with my Electronics Dev Boards - I love to
+                craft.</p>
+	    <p class="text-content">
+		I work at Predictbay Tech LLP in the Analytics team. I have a deep understanding of
+                the Predictive Analytics, Information Systems and Salesforce Development Environment. I have worked on many issues faced by the MSME space,
+                 and have come up with practical solutions that increased the revenue of many small and medium scale enterprises.
+                </p>
+
+            <p class="text-content">I studied Electronics & Communication at <a href="https://gtu.ac.in">GTU</a>.</p>
+
+            <p class="text-content">My current hobby-project is <a
+                    href="https://gap6.com">GAP6</a>,
+                GAP stands for Gather,Analyse,Predict, GAP6 is a predictive search engine capable of making basic forecasts like stock prices, commodity, crude oil and weather;
+                And more complex forecasts like Sports outcomes, Inflation rates, and economic bubbles! I love open source and I want to make my contribution; once the project is live I will push it to git.<br>
+                More: <a href="https://play.google.com/store/apps/details?id=com.kingpmsorecs.orecs">ORECS - Mobile Application</a>,
+                An Online Plant, Equipment and Machinery Business Management Application desgined for desktops and android phones.
+                <a href="https://play.google.com/store/apps/details?id=comm.app.paruluniversity">Projections</a> An interactive event management system for the annual technical festival of Parul University. </p>
+
+            <p class="text-content">I have done some research in non-linear dynamical systems at Saha Institute of Nuclear Physics, Kolkata
+                I designed and modelled Duffing's Oscillator; Introduced different types of Noise in the system, and studied the thus induced Stochastic Resonance, and Coherence Resonance.</p>
+
+            <p class="text-content">I've been learning to play the guitar since 2009, enjoy running marathons and
+                engage in a lot of volunteer work, I believe, one needs two things in life, to live and not just survive; First you gotta find something you are passionate about
+                and second need a purpose; where you can put your passion, skills and all the energy!</p>
+
+            <p class="text-content">You can connect with me on <a href="https://www.linkedin.com/in/iamtechno/">LinkedIn</a>,
+                or email me <a href="mailto:contact@amanbatra.in?Subject=Hello%20Aman%20-from-website" target="_top">here</a>.
+            </p>
+
+            <p class="text-content">Let's get in touch!</p>
+
+            <p class="text-content">Aman Batra</p>
+
+            <p class="text-content"><a href="timeline">For more about me, my timeline, read on here.</a></p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

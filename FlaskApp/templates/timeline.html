@@ -1,0 +1,336 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4 l8">
+            <div class="col s12 m4 l8">
+
+              <span class="date">2019</span>
+              <ul>
+                  <li>
+                      <div class="icon-title">
+                          <i class="tiny material-icons">work</i>
+                          <a href="/timeline" class="title">[Student Management with Data Science]</a>
+                      </div>
+                      <span class="content">Digital Education is the future of learning, it has already penetrated in private schools and colleges of Urban areas, but most Government schools and rural schools lack the infrastructure and resources needed for digital trasformation.
+                        To help some central schools step up their game, we have taken up a volunteer project for digital student administration.
+                  </span>
+                  </li>
+                  <li>
+                      <div class="icon-title">
+                          <i class="tiny material-icons">build</i>
+                            <a href="https://sumanbuildscare.com" class="title">[SumanBuildsCare,CRM]</a>
+                      </div>
+                      <span class="content">Made a Django based CRM with Power BI at the frontend for a waterproofing industry client. Designed their product portfolio website, and also a reporting app for Android/iOS using Titanium Appcelerator.</span>
+                  </li>
+      <li>
+                      <div class="icon-title">
+                          <i class="tiny material-icons">work</i>
+                          <a href="https://taxdaddy.in" class="title">[Taxdaddy.in, Partnered]</a>
+                      </div>
+                      <span class="content"> We tied up with Big Vision Associates, a business consultancy from Bharuch. We are Working on a cloud-based business services platform, which will enable people to order business services in minutes, like ordering food from Zomato.
+                        The team of CAs, tax consultants, accountants and company secretaries will operate at backend, whereas Predictbay will take charge of the front-end.
+                      </span>
+                  </li>
+
+              </ul>
+
+                <span class="date">2018</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">local_airport</i>
+                            <a href="/timeline" class="title">[Sunburn'18,Pune]</a>
+                        </div>
+                        <span class="content">I always wanted to attend an EDM festival, enjoyed the live performances by Alan Walker and Armin Van Buuren, for the most part I think; some Dj sets felt pre-recorded or maybe its just me.  The event was decent,
+                          but I was really disappointed by the havoc caused by uphill traffic jam, the killing smell of burnt clutch plates paired by the exhaust smokes made it a livng hell, we actually had to walk (or rather climb) for 5 kms after bopping for hours and hours.
+                          Overall, I think EDM is not for me, I'm more of a rock and classical guy.
+                    </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">linked_camera</i>
+                              <a href="/timeline" class="title">[Fashion Analytics, ML and AI]</a>
+                        </div>
+                        <span class="content"> Our first major project has gained support from surat's textile association. We trained a deep neural network(CNN,Keras) with around 2800 product images in the training set and 500 in the validation set, to classify images of clothing items as trendy or net.
+                        Gathering data wasn't that difficult as I had imagined, on the other hand I thought image processing would be quite easy as I had done it intensively during college but it actually is very challenging, I think I'll take some courses for Machine learning.
+                        </span>
+                    </li>
+		    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/projects/predictbay" class="title">[Analytics in E-Commerce]</a>
+                        </div>
+                        <span class="content"> A wave of digital transformation has encompassed Indian businesses; with so many merchants getting online everyone wants an online presence now.
+                          We get flooded by "I want online store website" equiries, and it is actually proving advantageous for us. Free publicity and a lot of potential clients;
+                          once we exlain how they can leverage the power of analytical dashboards integrated in their e-commerce website, it really gets them going.
+                        </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="https://predictbay.com" class="title">[Predictbay LLP, Founded]</a>
+                        </div>
+                        <span class="content">It wasn't a matter of taking chances, but rather working for a cause. We bootstrapped our collective assets and jumpstarted our partnership firm - Predictbay - a bay of where meaningful predictions are made.
+                          Dad also stepped in to help with the office space. Our first office is setup in a penthouse! It's been a week since the launch and we have already caught the eye of Surat's textile merchants. Also scored some leads, working to convert them!.
+                        </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">supervised_user_circle</i>
+                            <a href="/projects/predictbay" class="title">[Startup, Inception]</a>
+                        </div>
+                        <span class="content">The wave of demonetisation and GST combined with a lack of IT awareness has set back our SME sector.
+                          People are struggling hard to align with the recent technological changes in business, introduced by the Indian Government.
+                          Someone who takes 30 seconds to type "hello" is unquestionably going to face difficulties while filing monthly GST returns, let alone set up e-commerce for his or her business.
+                          We are registering our company, an IT Startup to serve the SMEs.
+                    </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">local_airport</i>
+                            <a href="/timeline" class="title">[Planning, Planning]</a>
+                        </div>
+                        <span class="content">Moved back to Surat. Assembling a team to work on a plan, So far we have a web designer, a chartered accountant,
+                          two python developers, a data scientist and an MBBS doctor!
+                    </li>
+                </ul>
+
+                <span class="date">2017</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">location_searching</i>
+                            <a href="/projects/cypher" class="title">[Cypher'17, Bangalore]</a>
+                        </div>
+                        <span class="content">Went Bangalore to attend Cypher'17, an event that brings enterprises, academia, industry doyens and innovators together. It was a great networking opportunity. Connected with the data science community, attended AI workshops and training sessions.  </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">location_searching</i>
+                            <a href="/projects/pms" class="title">[Ahmedabad, Gujarat]</a>
+                        </div>
+                        <span class="content">Moving to Ahmedabad, to work with the ORECS ERP's development team, and conduct some hands-on-training session for the new recruits of Mohku. </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/projects/youngsoft" class="title">[Contract, Youngsoft Inc]</a>
+                        </div>
+                        <span class="content">Signed an year-long contract with Youngsoft Inc of Wixom, Michigan for Salesforce Consulting. Now that I am well-versed with Salesforce Environment, I think I can take some more work!</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">local_airport</i>
+                            <a href="/projects/travel-17" class="title">[Month-long Travel]</a>
+                        </div>
+                        <span class="content">Took two months off of work to travel: Explored Dehdradun, Uttarkashi, Rishikesh, Raithal, Darjeeling, Gangtok and Kolkata. I also spent <a
+                                href="https://www.youtube.com/watch?v=aWjn1lJEZho">6 days trekking in Dayara Bugyal</a> during this period.</span>
+                    </li>
+                </ul>
+                <span class="date">2016</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">settings_ethernet</i>
+                            <a href="https://blog.amanbatra.in/2016/07/a-compilation-of-sfdc-data-migration.html" class="title">[Data, Data, Data]</a>
+                        </div>
+                        <span class="content">Lately, much of my time is spent in setting up data migrations from ACT, Excel, MS outlook using Data Loader, Data Import Wizard, SFDC Data Export, MassDelete, etc </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">code</i>
+                            <a href="https://www.salesforce.com/in/products/service-cloud/overview/" class="title">[SF Service Cloud]</a>
+                        </div>
+                        <span class="content">Worked on Service Cloud Console, Cases (Web to case, Email to case), Solutions, Case Assignment and CTI Integration.</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="https://www.salesforce.com/campaign/lightning/" class="title">[Salesforce Lightning Experience]</a>
+                        </div>
+                        <span class="content">Built an app in Salesforce Lightning Experience to manage the Client Relation team’s publication of content such as blog posts and admin stories.
+
+</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">code</i>
+                            <a href="https://developer.salesforce.com/docs/atlas.en-us.knowledge_dev.meta/knowledge_dev/knowledge_development_apexvf_intro.htm" class="title">[Apex and Visualforce]</a>
+                        </div>
+                        <span class="content"> I started working on a client project. My first task was integrating bootstrap with Visualforce for a CRM frontend, and subsequent tasks involved coding Apex Triggers, Apex classes and custom objects.
+                                Apex is quite fun, anyone with a working knowledge of Java can quickly get used apex. And Salesforce is cloud based, so need of setting up a specialized environment</span>
+                    </li>
+                </ul>
+                <span class="date">2015</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="https://Salesforce.com" class="title">[Hi Salesforce]</a>
+                        </div>
+                        <span class="content">Spent my first month exploring SFDC platform, Learned about Salesforce architecture and completed elemental training in Salesforce Trailhead. Got to know the basics of constituent CRM categories:<i>Commerce Cloud, Sales Cloud, Data Cloud, Service Cloud, Analytics and App Cloud</i></span>
+                    </li>
+
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/projects/pms" class="title">[Contract, PMS Infotech]</a>
+                        </div>
+                        <span class="content">Signed a consultation contract with PMS Infotech Pvt. Ltd. for Web Development and Server Management. I guess I'll have to make frequent trips to Ahmedabad now! </span>
+                    </li>
+                    <li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/projects/mohku" class="title">[Contract, Mohku Solutions LLC]</a>
+                        </div>
+                        <span class="content">Signed an employment contract with a Maryland Based IT Startup, Mohku LLC. Started working remotely at the post of System Architect. </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">local_airport</i>
+                            <a href="/projects/gtu-15" class="title">[GIC, GTU]</a>
+                        </div>
+                        <span class="content">Spent two weeks (May '15) at my University's coworking space, GTU Innovation Council, Gandhinagar - aka <a
+                                href="http://gtuinnovationcouncil.ac.in/">GIC</a> Interacted with like minded individuals from diverse fields - architecture, mechanical and civil, pharmacy, medical, the director, and several others.</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/timeline" class="title">[Campus Recruitment Drive]</a>
+                        </div>
+                        <span class="content">Secured job offers from TCS, Cognizant and Shortlisted for SSB under UES, could not make up my mind to settle down. The thought of 9 to 5 scared me.</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">school</i>
+                            <a href="#" class="title">[Graduated, B.E.]</a>
+                        </div>
+                        <span class="content"> Graduated from Gujarat Technological University, Completed my Bachelor of Engineering degree in Electronics and Communication </span>
+                    </li>
+                </ul>
+                <span class="date">2014</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">android</i>
+                            <a href="/projects/projections" class="title">[Projections, Android]</a>
+                        </div>
+                        <span class="content">Developed an <a href="https://play.google.com/store/apps/details?id=com.parul_university">Android application</a>  for <b>Projections Tech Fest</b> It managed to get 5000+ installation with 5 star rating from over 200 reviewers and an average rating of 4.5, The application features all the functions of Projections Website</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/timeline" class="title">[Convener, Students' Council - Parul University]</a>
+                        </div>
+                        <span class="content">Managed the student activities of over 20,000 students of <a href="http://paruluniversity.ac.in">PU</a> under the supervision of  <a href="http://www.yashchawla.in">Yash Chawla</a>, a Social Diffusion/Design Thinking research fellow at Wroclaw University of Science & Technology, Poland
+                          Organized and administered a variety of technical and non-technical including but not limited to <b>Annual Functions, Technical Contests, Expert Lectures, Workshops, Dance and Singing Competitions, Cultural Shows</b>, etc
+                        The <a href="Students' Council">https://www.facebook.com/PGIStudentsCouncil/</a> comprises of many students clubs: Social Service Club, Fashion Club, Cyber Club, Environment Club, Corporate and Managerial Clubs, Sports and Health CLub </span>
+
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/projects/projections" class="title">[Event Lead, Projections]</a>
+                        </div>
+                        <span class="content"> <a href="https://projections.co.in">Projections</a> the annual Technical Symposium of Parul University,
+    I managed the core teams of <a href="https://projections.co.in">Projections'14</a>: Sponsorship team, Marketing Team, Web Development and Graphics Design Team
+    Over 5000 students actively participated from 15 countries</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">work</i>
+                            <a href="/timeline" class="title">[Internship, Saha Institute of Nuclear Physics]</a>
+                        </div>
+                        <span class="content">Spent 2 months at <a
+                                href="http://www.saha.ac.in/web/index.php">SINP</a>, an institution of basic research and training in physical and biophysical sciences located in Bidhannagar, Kolkata, India <a
+                                href="http://www.saha.ac.in/web/index.php/ppd-home/ ">Plasma Physics Division</a>, where I developed a working model of non-linear Duffing Oscillator, presented a research report on chaotic behavior of the Duffing system, and also performed a lot of mathematical modeling in MATLAB</span>
+                    </li>
+                </ul>
+                <span class="date">2013</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">publish</i>
+                            <a href="/project/projections" class="title">[Projections, PIET]</a>
+                        </div>
+                        <span class="content"> Designed and Developed, the website of Projections - International Tech Fest of PIET. The website featured online registration and payment, a rank dashboard for participants and the portfolio of all kinds of events.</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">new_releases</i>
+                            <a href="/timeline" class="title">[Electronics mini-projects]</a>
+                        </div>
+                        <span class="content">I worked on a lot of Electronics and Embedded projects in my second year. From one idea to the next, designing and building circuits gave often a fleeting feeling of Iron Man. To list a couple that demonstrated application potential: <a
+                                href="/projects/daq">Data Acquisition System(DAQ)</a>, <a
+                                href="/projects/ldr">LDR Sunrise Alarm(IOT)</a>, and <a
+                                href="/projects/irvc">Bi-Directional Visitor Counter</a>.</span>
+                    </li>
+                </ul>
+                <span class="date">2011</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">school</i>
+                            <a href="https://en.wikipedia.org/wiki/Gujarat_Technological_University" class="title">[Undergrad,
+                                GTU]</a>
+                        </div>
+                        <span class="content">I took up an Electronics and Communication undergrad at <a
+                                href="https://www.gtu.ac.in/">GTU</a>. I took up electives in IoT and Software Architecture, made friends that I'll keep for life, and played a lot of football. This was a great place for me because the college gave us a lot of time and space and let us be - which is why I could experiment so many different things and figure out what I like to do most.</span>
+                    </li>
+                </ul>
+                <span class="date">2010</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">book</i>
+                            <span class="title">[Study, Monetize, Study]</span>
+                        </div>
+                        <span class="content">I spent 2 long years preparing to get an Engineering admission. Apart from imbibing the super fat books, thicker than my thighs - I designed websites, web applications, scored some development gigs, and monetized my blog via Google Adsense</span>
+                    </li>
+                </ul>
+                <span class="date">2009 and before</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">looks_two</i>
+                            <span class="title">[Design, Develop, Deploy]</span>
+                        </div>
+                        <span class="content"> 2009: Produced a working model of a portable FM radio transmitter(3 km Personal Radio Channel for Indian Villages); presented it at Govt. state level project exhibit, Vadodara on behalf of my school.
+                          Stopped playing pc games altogether because I enjoyed coding and system/network hacking more now. </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">attach_money</i>
+                            <span class="title">[Earned my first $1000]</span>
+                        </div>
+                        <span class="content">2008: Intensely played Mafia Wars on facebook. Perfected the game bot I was working on using some macros and javascript magic. Created a simple subscription model for public usage of the bot. Sold out monthly licenses and earned enough money to build my first gaming cabinet :D </span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">desktop_windows</i>
+                            <span class="title">["Hello,World!"]</span>
+                        </div>
+                        <span class="content">My father bought me a Lenovo Pentium 4 PC with : 512 MB RAM, 64MB integrated graphics, and 80GB HDD; the first thing I did was plugged in my telephone's cable in the cabinet and dialed-up the 128kbps BSNL wireline internet. The experience was so enthralling: I still remember the login credentials!
+                        I signed up on Orkut, Yahoo Messenger and Gtalk; and installed counter strike 1.6 - The love of 90s kids</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <!--<li><a href="/projects/" class="title">[]</a>
+        <span class="content"></span></li>-->
+    {% endblock %}
